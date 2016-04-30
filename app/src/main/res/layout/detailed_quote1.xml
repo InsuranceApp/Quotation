@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#ffffff">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Current Insurance Details"
+        android:id="@+id/textView6"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.04"
+        android:textColor="#0ebbd3"
+        android:textStyle="bold|italic"
+        android:textSize="22dp" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy insurance for a new car"
+        android:id="@+id/radioButton"
+        android:layout_weight="0.04"
+        android:checked="false" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Renew existing or lapsed car policy from any insurer"
+        android:id="@+id/radioButton2"
+        android:layout_weight="0.04"
+        android:checked="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Registration Details"
+        android:id="@+id/registrationdetails"
+        android:layout_weight="0.04"
+        android:textColor="#0ebbd3"
+        android:textStyle="bold|italic"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Personal Details"
+        android:id="@+id/personaldetails"
+        android:layout_weight="0.04"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:textColor="#0ebbd3" />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Vehicle Details"
+        android:id="@+id/vehicledetails"
+        android:layout_weight="0.04"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:textColor="#0ebbd3" />
+
+
+</LinearLayout>

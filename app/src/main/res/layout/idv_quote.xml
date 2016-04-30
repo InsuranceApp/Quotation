@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:background="#3f51b5">
+        <!--<android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#3f51b5"
+            android:popupTheme="@style/AppTheme.PopupOverlay"></android.support.v7.widget.Toolbar>
+    -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#3f51b5"
+            android:text="IBM Vehicle Insurance"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/HeaderImage"
+            android:layout_marginLeft="20dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:src="@drawable/car_protection"/>
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insured Declared Value(IDV:"
+        android:textColor="#3f5165"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/textView2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$11120"
+        android:textColor="#3f5165"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/textView"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_marginStart="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Premium Estate:"
+        android:textColor="#3f5165"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/textView3" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$111"
+        android:textColor="#3f5165"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/textView4"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3"
+        android:layout_marginStart="20dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recalculate"
+
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/button1"
+        android:background="#0ebbd3" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue to Buy"
+
+        android:layout_marginLeft="44dp"
+        android:id="@+id/button2"
+        android:layout_alignTop="@+id/button1"
+        android:layout_toRightOf="@+id/button1"
+        android:layout_toEndOf="@+id/button1"
+        android:layout_marginStart="20dp"
+        android:background="#0ebbd3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A quick quote has been generated for your vehicle "
+        android:id="@+id/textView15"
+        android:layout_marginTop="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:textStyle="bold|italic"
+        android:textColor="#3f5165"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RTO City,"
+        android:id="@+id/textView16"
+        android:layout_below="@+id/textView15"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#3f5165"
+
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration Date:"
+        android:id="@+id/textView17"
+        android:layout_toRightOf="@+id/textView16"
+        android:layout_toEndOf="@+id/textView16"
+        android:textColor="#3f5165"
+
+        android:layout_alignTop="@+id/textView16"
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hyderabad,"
+        android:id="@+id/textView18"
+        android:layout_below="@+id/textView15"
+        android:layout_marginTop="5dp"
+        android:textColor="#3f5165"
+
+        android:layout_toRightOf="@+id/textView17"
+        android:layout_toEndOf="@+id/textView17"
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="05/02/2014"
+        android:id="@+id/textView19"
+        android:textColor="#3f5165"
+        android:layout_alignTop="@+id/textView18"
+        android:layout_toRightOf="@+id/textView18"
+        android:layout_toEndOf="@+id/textView18"
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Model:"
+        android:id="@+id/textView20"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignBottom="@+id/textView16"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#3f5165"
+
+        android:layout_below="@+id/textView16" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ASHOK LEYLAND,"
+        android:id="@+id/textView21"
+        android:layout_below="@+id/textView17"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_alignEnd="@+id/textView4"
+        android:textColor="#3f5165"
+
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STILE LE 8STR"
+        android:id="@+id/textView22"
+        android:textSize="14dp"
+        android:layout_below="@+id/textView17"
+        android:layout_toRightOf="@+id/textView21"
+        android:textColor="#3f5165"
+
+        android:layout_toEndOf="@+id/textView21" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Model:"
+        android:id="@+id/textView23"
+        android:layout_below="@+id/textView16"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:textColor="#3f5165"
+
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This quote is as on 20/03/2016. The premium estimate is given by assuming that all previous policies have been renewed continuously without any gap in insurance and no claim has been made in previous policies "
+        android:id="@+id/textView25"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/button1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"
+        android:layout_alignRight="@+id/textView15"
+        android:textColor="#3f5165"
+        android:layout_alignEnd="@+id/textView15" />
+
+</RelativeLayout>

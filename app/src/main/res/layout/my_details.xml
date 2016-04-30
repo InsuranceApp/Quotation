@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:background="#3f51b5">
+        <!--<android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#3f51b5"
+            android:popupTheme="@style/AppTheme.PopupOverlay"></android.support.v7.widget.Toolbar>
+    -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#3f51b5"
+            android:text="IBM Vehicle Insurance"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/HeaderImage"
+            android:layout_marginLeft="20dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:src="@drawable/car_protection"/>
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/CurrentInsDetails"
+        android:text="CURRENT INSURANCE DETAILS"
+        android:padding="10dp"
+        android:textSize="23dp"
+        android:textColor="#3f5165"
+
+        android:layout_marginTop="20dp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginLeft="25dp"
+        android:background="#b0e0e6">
+    <RadioButton
+        android:layout_width="250dp"
+        android:id="@+id/BuyInsForNewCar"
+        android:layout_height="wrap_content"
+        android:text="Buy Insurance For New Car"
+        android:textColor="#3f5165"
+
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <RadioButton
+        android:layout_width="250dp"
+        android:id="@+id/RenewExistingPolicy"
+        android:layout_height="wrap_content"
+        android:text="Renew existing or lapsed car policy from any insurer"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="left"
+        android:textColor="#3f5165"
+        />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="Is your current policy with ICICI Lombard ?"
+        android:textSize="20dp"
+        android:id="@+id/CurentPolicy"
+        android:textColor="#3f5165"
+        android:background="#ffffff"
+        android:padding="10dp"
+        />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#ffffff">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/yes"
+            android:text="Yes"
+            android:textSize="20dp"
+            android:textColor="#3f5165"
+           />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/no"
+            android:text="No"
+            android:textSize="20dp"
+
+            android:textColor="#3f5165"
+            />
+        </RadioGroup>
+
+
+
+</LinearLayout>

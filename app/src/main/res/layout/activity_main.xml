@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:theme="@style/AppTheme.AppBarOverlay"
+    android:background="#3f51b5">
+    <!--<android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#3f51b5"
+        android:popupTheme="@style/AppTheme.PopupOverlay"></android.support.v7.widget.Toolbar>
+-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#3f51b5"
+        android:text="IBM Vehicle Insurance"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/HeaderImage"
+        android:layout_marginLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:src="@drawable/car_protection"/>
+
+
+
+</LinearLayout>
+
+
+
+    <!--
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/HeaderText"
+            android:text="IBM Vehicle Insurance"
+            android:textColor="#ff0000"
+            android:textSize="20dp"
+            android:paddingTop="10dp"
+            android:layout_marginRight="100dp"
+            android:background="#00ff00"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/Header"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/carProtection"
+            android:layout_gravity="right"
+            android:background="#00ff00"
+            android:layout_marginLeft="200dp"
+            />
+
+
+
+
+
+
+    </RelativeLayout>
+-->
+
+
+    <Button
+        android:layout_width="150dp"
+        android:id="@+id/buyquote"
+        android:layout_height="wrap_content"
+        android:text="Buy Policy"
+        android:gravity="center_horizontal"
+        android:background="#3f51b5"
+        android:textSize="20dp"
+        android:paddingTop="10dp"
+
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fdfbfb" />
+
+    <Button
+        android:layout_width="150dp"
+        android:id="@+id/getquickquote"
+        android:layout_height="wrap_content"
+        android:text="Get Quick Quote"
+        android:paddingTop="10dp"
+        android:background="#3f51b5"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_above="@+id/buyquote"
+        android:layout_alignLeft="@+id/buyquote"
+        android:layout_alignStart="@+id/buyquote"
+        android:textColor="#fdfbfb" />
+
+
+
+
+</RelativeLayout>

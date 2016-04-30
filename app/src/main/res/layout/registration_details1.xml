@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:background="#3f51b5">
+        <!--<android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#3f51b5"
+            android:popupTheme="@style/AppTheme.PopupOverlay"></android.support.v7.widget.Toolbar>
+    -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#3f51b5"
+            android:text="IBM Vehicle Insurance"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/HeaderImage"
+            android:layout_marginLeft="20dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:src="@drawable/car_protection"/>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Registration Details"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/textView5"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:textColor="#3f5165"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_gravity="center_horizontal"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#3f5165"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="5dp"
+        android:text="City where the car is registered "
+        android:id="@+id/textView7"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:id="@+id/regcity"
+        android:textColor="#3f5165"
+        android:background="#b0e0e6"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Purchase or Registration Date"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/textView8"
+        android:textColor="#3f5165"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+         />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#3f5165"
+        android:background="#b0e0e6"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp">
+
+
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/date1"
+
+            android:spinnerMode="dropdown"
+            />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/month1"
+
+            android:spinnerMode="dropdown" />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/year1"
+
+            android:spinnerMode="dropdown" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Registration Type"
+        android:layout_marginBottom="5dp"
+        android:textColor="#3f5165"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:id="@+id/textView9"
+         />
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textColor="#3f5165"
+        android:background="#b0e0e6"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp">
+        <RadioButton
+            android:textColor="#3f5165"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Individual"
+            android:id="@+id/radioButton3"
+
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton4"
+            android:layout_gravity="right"
+            android:textColor="#3f5165"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="9dp"
+            android:checked="false"
+            android:text="Company" />
+        </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="9dp"
+        android:layout_marginLeft="15dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save and Next"
+            android:id="@+id/rsaveandnext"
+            android:background="#0ebbd3" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rcancel"
+            android:layout_marginLeft="8dp"
+            android:text="Cancel"
+            android:background="#0ebbd3" />
+
+    </LinearLayout>
+
+</LinearLayout>

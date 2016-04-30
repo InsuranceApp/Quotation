@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Occupation"
+        android:id="@+id/Occupation"
+        android:layout_marginLeft="15dp"
+        android:textSize="18dp"
+        android:textColor="#3f5165"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerOccupation"
+        android:layout_width="180dp"
+        android:spinnerMode="dropdown"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:entries="@array/occuption_arrays"
+        android:prompt="@string/occupation_prompt"
+        android:textColor="#3f5165"
+        android:background="#b0e0e6"/>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Family Size"
+        android:id="@+id/FamilySize"
+        android:layout_marginLeft="15dp"
+        android:textSize="18dp"
+        android:textColor="#3f5165"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerFamilySize"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:spinnerMode="dropdown"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:entries="@array/family_arrays"
+        android:prompt="@string/family_prompt"
+        android:textColor="#3f5165"
+        android:background="#b0e0e6"/>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Marital Status"
+        android:id="@+id/maritalstatus"
+        android:layout_marginLeft="15dp"
+        android:textSize="18dp"
+        android:textColor="#3f5165"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerMarital"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:spinnerMode="dropdown"
+        android:layout_gravity="left"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:entries="@array/marital_arrays"
+        android:prompt="@string/marital_prompt"
+        android:textColor="#3f5165"
+        android:background="#b0e0e6"/>
+
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="No. of family members driving the vehicle"
+        android:id="@+id/familysize"
+        android:layout_marginLeft="15dp"
+        android:textSize="18dp"
+        android:textColor="#3f5165"
+       />
+
+    <Spinner
+        android:id="@+id/spinnerFamily"
+        android:layout_width="180dp"
+        android:spinnerMode="dropdown"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:entries="@array/family_arrays"
+        android:prompt="@string/family_prompt"
+        android:textColor="#3f5165"
+        android:background="#b0e0e6"/>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Estimated monthly mileage"
+        android:id="@+id/mileage"
+        android:layout_marginLeft="15dp"
+        android:textSize="18dp"
+        android:textColor="#3f5165"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerMileage"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:spinnerMode="dropdown"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:entries="@array/Mileage_arrays"
+        android:prompt="@string/Mileage_prompt"
+        android:textColor="#3f5165"
+        android:background="#b0e0e6"/>
+
+
+
+</LinearLayout>

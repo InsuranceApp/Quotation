@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jayasimha.quotation">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+
+
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".MainActivity2" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".MainActivity1" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".MainActivity3" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".detailed_quote" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Registration_details" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Vehicle_details" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Personal_details" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".CurrentInsDetails" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".CustomExpandableList" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".policy_calculate" >
+        </activity>
+    </application>
+
+
+</manifest>

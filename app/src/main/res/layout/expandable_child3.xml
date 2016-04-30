@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical" >
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Manufacturer"
+        android:id="@+id/manufacturer"
+        android:layout_marginLeft="15dp"
+        android:textSize="18dp"
+        android:textColor="#3f5165"
+        />
+
+    <EditText  android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
+        android:singleLine="true"
+        android:lines="1"
+        android:textColor="#3f5165"
+        android:background="#b0e0e6"
+        android:inputType="textEmailAddress"
+        android:layout_height="wrap_content"
+
+        />
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Model"
+        android:id="@+id/model"
+        android:layout_marginLeft="15dp"
+        android:textSize="18dp"
+        android:textColor="#3f5165"
+        />
+
+    <EditText android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:width="150dp"
+        android:textSize="18dp"
+        android:textColor="#3f5165"
+        android:background="#b0e0e6"
+        android:inputType="text"/>
+
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Cubic Capacity"
+        android:id="@+id/cubicCapacity"
+        android:layout_marginLeft="15dp"
+        android:textSize="18dp"
+        android:textColor="#3f5165"
+       />
+
+    <EditText android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="150dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="18dp"
+        android:textColor="#3f5165"
+        android:background="#b0e0e6"
+        android:inputType="text"/>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="ExShowroom Price"
+        android:id="@+id/exShowroom"
+        android:layout_marginLeft="15dp"
+        android:textSize="18dp"
+        android:textColor="#3f5165"
+        />
+
+    <EditText android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:width="150dp"
+        android:textSize="18dp"
+        android:textColor="#3f5165"
+        android:background="#b0e0e6"
+        android:inputType="text"/>
+
+
+</LinearLayout>
